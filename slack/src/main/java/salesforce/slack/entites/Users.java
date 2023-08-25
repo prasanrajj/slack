@@ -7,6 +7,7 @@ import java.util.*;
 @Entity
 @Table(name = "users")
 public class Users {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
